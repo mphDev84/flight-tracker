@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My FLight Tracker</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <meta charset="UTF-8">
+        <link href="index.css" rel="stylesheet">
+    </head>
+<body>
+    
+    <h2 class="header">Flight Tracker App</h2>
+    <div id="tracker-wrapper">
+    <form id="user-form">
+        <input
+            id="user-input"
+            class="flight-number-input"
+            type="text"
+            name="flightNumber"
+            required
+            placeholder="enter flight number"
+        ></input>
+        <button id="button" class="submit-button" type="submit" value="submit" onClick="populateData(event)">
+            Go!
+        </button>
+    </form>
+    <p id="flight-data"></p>
+    <div id="map"></div>
+    </div>
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqdhtMBrpBkTvyLPE6ul7yRJW1Bdt8F18&callback=initMap&v=weekly"
+    defer
+  ></script>
+    </body>
+    <script src="index.js"></script>
+</html>
