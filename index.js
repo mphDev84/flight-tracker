@@ -23,7 +23,7 @@ const fetchFlightData = (flightNumber) => {
 	console.log("info");
 	const myFlightNumberValue = flightNumber;
 	fetch(
-		`https://airlabs.co/api/v9/flight?flight_icao=${flightNumber}&api_key=8a02596f-cfa1-41ec-a057-801e7d91c336`
+		`https://airlabs.co/api/v9/flight?flight_icao=${flightNumber}&api_key=*API key goes here*`
 	)
 		.then((res) => res.json())
 		.then((json) => {
