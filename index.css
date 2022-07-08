@@ -1,0 +1,64 @@
+body {
+	background-image: url("/public/pics/background.jpg");
+	background-size: 1400px;
+	background-position: 1em 0 1em 0;
+}
+#textArea {
+	font-weight: bolder;
+	color: rgb(2, 2, 66);
+}
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 600px;
+	/* The width is the width of the web page */
+	border: blue solid 4px;
+	border-radius: 10px;
+}
+.header {
+	color: white;
+	background-color: rgb(39, 39, 83, 0.5);
+	border-radius: 30px;
+	text-align: center;
+	margin-bottom: 2em;
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+#sub-header {
+	color: black;
+	background-color: lightblue;
+	text-align: center;
+	margin-bottom: 50px;
+	border-radius: 30px;
+}
+#tracker-wrapper {
+	display: flex;
+	flex-direction: column;
+	/*border: solid red 1px;*/
+	align-items: center;
+}
+#user-input {
+	border: black solid 1px;
+	border-radius: 5px;
+	width: 250px;
+	height: 25px;
+}
+#button {
+	color: white;
+	background-color: blue;
+	border: rgb(1, 1, 70) solid 2px;
+	border-radius: 5px;
+	height: 30px;
+	width: 80px;
+}
+#button:hover {
+	cursor: pointer;
+}
+#button:active {
+	transform: translateY(3px);
+	transform: scale(1.2);
+}
+#flight-data {
+	color: black;
+	background-color: white;
+}
