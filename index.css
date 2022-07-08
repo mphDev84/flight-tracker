@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-image: url("/public/pics/background.jpg");
 	background-size: 1400px;
 	background-position: 1em 0 1em 0;
 }
